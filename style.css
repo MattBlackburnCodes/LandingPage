@@ -1,0 +1,191 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: black;
+}
+.overhead{
+    color: white;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkred;
+    margin-top: -10px;
+    
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 24px;
+    margin-top: -20px;
+    
+}
+
+.shortD{
+    margin-left: -40px;
+    margin-top: -20px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: ;
+    
+}
+
+.leftRight{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.links {
+    margin-top: -50px;
+    font-size: small;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.me{
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    margin-bottom: 20px;
+}
+
+.productLogo{
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+}
+
+.middlePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    width: 100%;
+    border: 1px solid black;
+    flex: 1 1 auto;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.projects{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    align-content: center;
+    
+}
+.productLogo:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    border: 2px solid black;
+}
+
+.top{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.middle{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: darkred;
+    flex: 1 1 auto;
+    color: white;
+}
+
+.end {
+    background-color: white;
+    color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.footer{
+    width: 100%;
+    height: 75px;
+    background-color: darkslategray;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.endLogo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
