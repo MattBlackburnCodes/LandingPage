@@ -1,19 +1,51 @@
-body{
-    min-height: 100vh;
+@font-face{
+    font-family: 'Rubik';
+    src: url(./fonts/RubikIso-Regular.ttf);
+
+
+}
+@font-face {
+    font-family: 'Lobster';
+    src: url(./fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Caveat';
+    src: url(./fonts/Caveat-VariableFont_wght.ttf);
+}
+
+:root{
+    --primaryColor: rgb(0, 0, 252);
+    --secondaryColor: white;
+    --thirdColor: black;
+    --errorBorder: 1pc solid red;
+    
+    font-size: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
-    background-color: black;
-}
-.overhead{
-    color: white;
+    background-color: var(--secondaryColor);
+    min-height: 100%;
     min-width: 100%;
+}
+.topHeader{
+    width: 100%;
+    height: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-color: darkred;
+    
     margin-top: -10px;
     
 }
@@ -22,36 +54,63 @@ body{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 24px;
     margin-top: -20px;
     
 }
 
-.shortD{
-    margin-left: -40px;
-    margin-top: -20px;
-    font-size: 12px;
+.profile {
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    
+    flex-direction: row;
+    justify-content: center; /* aligns items horizontally in the center */
+    align-items: center;     /* aligns items vertically in the center */
+    color: var(--secondaryColor);
+    background: linear-gradient(135deg, var(--primaryColor), var(--thirdColor));
 }
+
 
 .aboutMe{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    line-height: .4rem;
 }
 
-.profile {
+.intro{
+
+}
+
+.myName{
+    font-family: 'Caveat';
+    font-size: 2rem;
+    color: var(--secondaryColor);
+}
+
+
+.profileSpace{
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: ;
-    
+    justify-content: center;
+    align-items: center;
+
+ 
 }
+.me {
+  filter: grayscale(20%);
+  max-width: 100%;  /* restricts the image to not exceed the container width */
+  max-height: 100%; /* restricts the image to not exceed the container height */
+}
+
 
 .leftRight{
     list-style: none;
@@ -63,6 +122,18 @@ body{
     margin: 0px;
     
 }
+.top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
 
 .logo{
     width: 100px;
@@ -83,13 +154,6 @@ ul {
     flex-flow: row wrap;
 }
 
-.me{
-    width: 150px;
-    height: 150px;
-    border-radius: 25%;
-    margin-bottom: 20px;
-}
-
 .productLogo{
     width: 100px;
     height: 100px;
@@ -103,7 +167,6 @@ ul {
     align-items: center;
     align-content: flex-start;
     width: 100%;
-    border: 1px solid black;
     flex: 1 1 auto;
 }
 
@@ -130,15 +193,7 @@ ul {
     border: 2px solid black;
 }
 
-.top{
-    width: 100%;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-}
+
 
 .middle{
     width: 100%;
@@ -163,29 +218,20 @@ ul {
     flex: 1 1 auto;
 }
 
-.footer{
+.footer {
     width: 100%;
-    height: 75px;
-    background-color: darkslategray;
-    color: black;
+    height: 10%;
+    background: linear-gradient(135deg, var(--primaryColor), var(--thirdColor));
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    color: white;
+    color: var(--secondaryColor);
+    padding: 10px;
+    margin-top: auto; /* This will push the footer to the bottom */
 }
 
 .endLogo{
-    width: 25px;
-    height: 25px;
+    width: 50px;
     border-radius: 50%;
-}
-
-footer{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
 }
