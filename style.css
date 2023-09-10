@@ -15,9 +15,10 @@
 }
 
 :root{
-    --primaryColor: rgb(0, 0, 252);
+    --primaryColor: rgb(22, 147, 248);
     --secondaryColor: white;
     --thirdColor: black;
+    --backgroundcolor: rgb(68, 68, 68);
     --errorBorder: 1pc solid red;
     
     font-size: 100%;
@@ -34,9 +35,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: var(--secondaryColor);
+    background-color: var(--backgroundcolor);
     min-height: 100%;
     min-width: 100%;
+    color: var(--secondaryColor);
 }
 .topHeader{
     width: 100%;
@@ -66,31 +68,32 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center; /* aligns items horizontally in the center */
-    align-items: center;     /* aligns items vertically in the center */
+    align-items: center; 
+    text-align: center;    /* aligns items vertically in the center */
+    flex-wrap: wrap;
     color: var(--secondaryColor);
     background: linear-gradient(135deg, var(--primaryColor), var(--thirdColor));
+    padding-left: 30px;
 }
 
 
-.aboutMe{
+.intro{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;  
     width: 100%;
     height: 100%;
     font-size: 1.2rem;
-    line-height: .4rem;
+    line-height: 1.3rem;
+    flex: 1;
 }
 
-.intro{
-
-}
 
 .myName{
     font-family: 'Caveat';
     font-size: 2rem;
+    line-height: 1.3rem;
     color: var(--secondaryColor);
 }
 
@@ -102,14 +105,19 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex: 1;
 
  
 }
+
 .me {
-  filter: grayscale(20%);
-  max-width: 100%;  /* restricts the image to not exceed the container width */
-  max-height: 100%; /* restricts the image to not exceed the container height */
-}
+    filter: grayscale(20%);
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 300px;
+    min-height: 300px;
+  }
+  
 
 
 .leftRight{
@@ -122,12 +130,29 @@ body {
     margin: 0px;
     
 }
+
+.aboutMe{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: left;
+    line-height: 1.4rem;
+}
+
+
 .top{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: left;
 }
 
 
@@ -197,19 +222,16 @@ ul {
 
 .middle{
     width: 100%;
-    border: 1px solid black;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: flex-start;
-    background-color: darkred;
     flex: 1 1 auto;
     color: white;
 }
 
 .end {
-    background-color: white;
-    color: black;
+
     width: 100%;
     display: flex;
     flex-direction: column;
