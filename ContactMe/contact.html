@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <div class="topHeader">
+        <div class="header">
+            <img src="../images/My Logo.jpg" alt="Matt Blackburn's logo" class="logo">
+            <ul class="leftRight links">
+                <li> <a href="">About me</a> </li>
+                <li> <a href="../index.html">Resume</a> </li>
+                <li> <a href="./contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </div>
+    <form action="mailto:solitaireblack21@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Let's Create Stuff</legend>
+            <ul>
+                <li>
+                    <label for="clientInfo">
+                        <input type="text" name="firstName" id="clientInfo" placeholder="First Name *">
+                    </label>
+                    <label for="clientInfo">
+                        <input type="text" name="lastName" id="clientInfo" placeholder="Last Name *">
+                    </label>
+                </li>
+                <li>
+                    <label for="clientInfo"></label>
+                        <input type="email" name="email" id="clientInfo" placeholder="Enter Your Email *">
+                    </label>
+                    <label for="clientInfo">
+                        <input type="tel" name="phone" id="clientInfo" placeholder="Phone Number">
+                    </label>
+                </li>
+                <li>
+                    <label for="clientInfo">
+                        <textarea name="message" id="ClientInfo" cols="60" rows="30" placeholder="Message *"></textarea>
+                    </label>
+                </li>
+            </ul>
+            <button type="submit">Send It</button>
+        </fieldset>
+    </form>
+
+    <div class="footer">
+        <h4>CodeMagic by Matt</h4>
+        <ul class="leftRight">
+            <li> <a href="https://github.com/MattBlackburnCodes"><img src="../images/github_PNG68.png" alt="GitHub" class="endLogo"></a></li>
+            <li> <a href=""><img src="../images/Linkedin.png" alt="LinkedIn" class="endLogo"></a></li>
+        </ul>
+    </div>
+</body>
+</html>
