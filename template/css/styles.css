@@ -634,6 +634,7 @@ progress {
   color: #6c757d;
 }
 
+
 .container,
 .container-fluid,
 .container-xxl,
@@ -683,6 +684,9 @@ progress {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .row > * {
   flex-shrink: 0;
@@ -9591,6 +9595,11 @@ textarea.form-control-lg {
   .mb-lg-0 {
     margin-bottom: 0 !important;
   }
+
+  .mb-lg-0 > .aroundTheWorld{
+    margin-top: 1.3rem !important;
+  }
+
   .mb-lg-1 {
     margin-bottom: 0.25rem !important;
   }
@@ -11054,9 +11063,15 @@ html {
   background-color: #1a252f;
 }
 
-.profilePic{
+.profilePic,
+.logoPic{
   border-radius: 50%;
   border: 2px solid var(--bs-secondary);
   background-color: var(--bs-secondary);
-  filter: grayscale(50%);
+  filter: grayscale(0%);
+}
+
+.logoPic{
+  width: 50px;
+  height: 50px;
 }
