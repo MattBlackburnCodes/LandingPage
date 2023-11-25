@@ -1,0 +1,136 @@
+:root{
+    --primaryColor: rgb(22, 147, 248);
+    --secondaryColor: white;
+    --thirdColor: black;
+    --backgroundcolor: rgb(68, 68, 68);
+    --errorBorder: 1px solid red;
+    
+    font-size: 100%;
+
+}
+
+input,
+textarea,
+select,
+button {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--backgroundcolor);
+    color: var(--secondaryColor);
+    gap: 12rem;
+    flex: 1 1 auto;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+    position: relative;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 2rem;
+}
+
+fieldset{
+    border: 1px solid var(--primaryColor);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    position: relative;
+}
+
+legend{
+    font-size: 1.5rem;
+    font-weight: bold;
+    bottom: 0;
+    right: 0;
+}
+
+.topHeader{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.leftRight{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+
+.footer {
+    width: 100vw;
+    height: 10%;
+    background: linear-gradient(135deg, var(--primaryColor), var(--thirdColor));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--secondaryColor);
+    padding-left: 50px;
+    margin-top: auto; /* This will push the footer to the bottom */
+}
+
+.endLogo{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.endLogo:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    border: 2px solid black;
+}
+

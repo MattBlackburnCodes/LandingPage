@@ -19,7 +19,7 @@ window.addEventListener('DOMContentLoaded', event => {
             navbarCollapsible.classList.remove('navbar-shrink')
         } else {
             navbarCollapsible.classList.add('navbar-shrink')
-        }s
+        }
 
     };
 
