@@ -27,8 +27,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -52,24 +52,59 @@
                 <p class="masthead-subheading font-weight-light mb-0">Front-End Web Developer - Lead End User Support Analyst - IT Consultant</p>
             </div>
         </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
+        <section class="page-section text-black mb-0" id="about">
             <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase">About</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
+                    <img src="./assets/img/logo/logo.png" alt="Logo" class="logoPic">
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row text-black">
+                    <p class="lead">Hello! I'm Matthew Blackburn, an experienced IT professional transitioning into frontend web development. My background includes roles like Senior End User Analyst and Desktop Support Specialist, where I honed my skills in system administration, network management, and customer support. Now, as I shift towards web development, I'm leveraging my expertise in complex tech environments, problem-solving, and software/hardware integration.</p></div>
+                    <p class="lead">Currently deepening my knowledge in HTML, CSS, JavaScript, Python, and more, I bring a unique blend of administrative and creative insights to my projects. I hold a BS in Computer Science from Colorado Technical University and actively enhance my skills through platforms like The Odin Project and W3 Schools. Passionate about creating user-friendly web experiences, I am excited to apply my diverse skills in this new realm and contribute to innovative web development teams.</p></div>
+                </div>
+                <!-- About Section Button-->
+                <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-dark" href="./Resume/Front-End Developer Matt Blackburn.pdf">
+                        <i class="fas fa-download me-2"></i>
+                        Download My Resume!
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Section-->
+        <!-- Portfolio Section-->
+        <section class="page-section bg-primary portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-white">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line "></div>
                     <div class="divider-custom-icon"><img src="./assets/img/logo/logo.png" alt="Logo" class="logoPic"></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
+                    <!--Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-black">Lunch Roulette</div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/Chaos_Menu_Background.jpg" alt="Lunch Roulette" />
+                        </div>
+                    </div>
                     <!-- Portfolio Item 1-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><p>Blue Bicho Studios</p><!--<i class="fas fa-plus fa-3x"></i>--></div>
+                                <div class="portfolio-item-caption-content text-center text-black"><p>Blue Bicho Studios</p><!--<i class="fas fa-plus fa-3x"></i>--></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/blueBicho.png" alt="Blue Bicho Studios" />
                         </div>
@@ -78,7 +113,7 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">Rock Paper Scissors<!--<i class="fas fa-plus fa-3x"></i>--></div>
+                                <div class="portfolio-item-caption-content text-center text-black">Rock Paper Scissors<!--<i class="fas fa-plus fa-3x"></i>--></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/RPS.png" alt="Rock Paper Scissors" />
                         </div>
@@ -87,20 +122,11 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">Tic Tac Toe<!--<i class="fas fa-plus fa-3x"></i>--></div>
+                                <div class="portfolio-item-caption-content text-center text-black">Tic Tac Toe<!--<i class="fas fa-plus fa-3x"></i>--></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/TicTacToe.png" alt="Tic Tac Toe" />
                         </div>
                     </div>
-                    <!--Portfolio Item 4-->
-                    <!--<div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
-                        </div>
-                    </div>-->
                     <!-- Portfolio Item 5-->
                     <!--<div class="col-md-6 col-lg-4 mb-5 mb-md-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
@@ -119,31 +145,6 @@
                             <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
                         </div>
                     </div>-->
-                </div>
-            </div>
-        </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <img src="./assets/img/logo/logo.png" alt="Logo" class="logoPic">
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Hello! I'm Matthew Blackburn, an experienced IT professional transitioning into frontend web development. My background includes roles like Senior End User Analyst and Desktop Support Specialist, where I honed my skills in system administration, network management, and customer support. Now, as I shift towards web development, I'm leveraging my expertise in complex tech environments, problem-solving, and software/hardware integration.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">Currently deepening my knowledge in HTML, CSS, JavaScript, Python, and more, I bring a unique blend of administrative and creative insights to my projects. I hold a BS in Computer Science from Colorado Technical University and actively enhance my skills through platforms like The Odin Project and W3 Schools. Passionate about creating user-friendly web experiences, I am excited to apply my diverse skills in this new realm and contribute to innovative web development teams.</p></div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="./Resume/Front-End Developer Matt Blackburn.pdf">
-                        <i class="fas fa-download me-2"></i>
-                        Download My Resume!
-                    </a>
                 </div>
             </div>
         </section>
@@ -364,7 +365,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Lunch Roulette</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -372,10 +373,33 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Chaos_Menu_Background.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <p class="mb-4">
+                                        <h3>Project Overview:</h3>
+                                        <p>Lunch Roulette is showcased on the <a href="https://lunch-roulette-theta.vercel.app/">Lunch Roulette Site</a>. It is an innovative web application designed to simplify daily meal decisions. This intuitive app employs a randomized selection mechanism to help users effortlessly decide their lunch options based on available ingredients. By addressing the common dilemma of "What should I eat for lunch?" Lunch Roulette serves both individuals and families looking to streamline their meal preparation process.</p>
+                                        <h3>Features:</h3>
+                                        <br>
+                                        <p><b>Ingredient Categorization:</b> Users can select from various ingredient categories including meats, vegetables, grains, seasonings, and sauces.</p>
+                                        <p><b>Customizable Selections:</b> The app allows for customization based on the user's pantry items, accommodating preferences and dietary restrictions.</p>
+                                        <p><b>Meal Suggestions:</b>  With a simple click, the app randomly generates a lunch idea combining the chosen ingredients, offering a creative and varied diet.</p>
+                                        <p><b>Recipe Integration:</b> Each suggested meal comes with a suggested recipe, making it easy to follow along and prepare the meal.</p>
+                                        <p><b>User-Friendly Interface:</b>  Designed with ease of use in mind, the app features a clean, intuitive interface that makes meal planning less of a chore.</p>
+                                        
+                                        <h3>Technologies Used:</h3>
+                                        
+                                        <p>HTML/CSS for layout and styling</p>
+                                        <p>JavaScript for interactive elements</p>
+                                        <p> logic handled by Node.js</p>
+                                        <p>Stored ingredient data in a JSON format for easy manipulation and retrieval</p>
+                                        
+                                        <h3>Outcome:</h3> 
+                                        <p>Lunch Roulette has successfully simplified meal planning for its users, offering a fun and interactive way to decide on daily meals. It has been particularly praised for its user-friendly design and innovative approach to a common problem.</p>
+                                        
+                                        <h3>Reflection:</h3>
+                                        <p>This project was a fantastic opportunity to delve into the intricacies of web development and user interface design. It challenged my coding skills and creative thinking, pushing me to deliver a functional and engaging product that effectively addresses user needs.</p>
+                                        <br>
+                                        <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
                                     </button>
