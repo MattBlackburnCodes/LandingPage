@@ -11142,13 +11142,14 @@ table{
   width: 100%;
   border-collapse: collapse;
   border: white solid 1px;
+  border-radius: 10px;
 
 }
 
 tr{
   width: 100%;
   height: fit-content;
-
+  border-radius: 10px;
 }
 
 th,
