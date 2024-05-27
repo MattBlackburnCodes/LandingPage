@@ -11146,11 +11146,11 @@ table{
 
 }
 
-tr{
+/*tr{
   width: 100%;
   height: fit-content;
   border-radius: 10px;
-}
+}*/
 
 th,
 td{
@@ -11158,6 +11158,7 @@ td{
   border: white solid 1px;
   text-align: center;
   vertical-align: middle;
+  margin: 1rem;
 }
 
 .service-offerings{
@@ -11184,7 +11185,6 @@ td{
 
 .background-image{
   background-color: rgba(15,31,51,255);
-  border: 3px solid black;
   border-radius: 10px;
   width: 100%;
   display: flex;
@@ -11203,11 +11203,22 @@ td{
 }
 
 .spacing{
-  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
 }
 
 .dark-orange{
   background-color: rgba(211,90,16,255);
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.dark-blue{
+  background-color: rgba(15,31,51,255);
+  margin-left: 1rem;
+  margin-right: 1rem;
+
 }
 
 .profilePic {
