@@ -23,18 +23,6 @@
     --font-size: 100%;
 }
 
-#root{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--backgroundcolor);
-    min-height: 100vh;
-    min-width: 100vw;
-    color: var(--secondaryColor);
-    gap: 12rem;
-}
-
 
 body {
     display: flex;

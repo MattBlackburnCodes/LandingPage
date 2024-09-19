@@ -5,6 +5,8 @@ import './App.css'
 import Nav from './Nav.jsx'
 import MastHead from './MastHead.jsx'
 import About from './About.jsx'
+import Footer from './Footer.jsx'
+import Copyright from './Copyright.jsx'
 
 export default function App() {
 
@@ -13,6 +15,8 @@ export default function App() {
             <Nav />
             <MastHead />
             <About />
+            <Footer />
+            <Copyright />
         </div>
     )
     }
