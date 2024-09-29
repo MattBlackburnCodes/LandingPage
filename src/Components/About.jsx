@@ -1,4 +1,4 @@
-export default function About() {
+export default function About(props) {
     return (
         <div>
             <section className="page-section text-black mb-0" id="about">
@@ -11,17 +11,22 @@ export default function About() {
                     </div>
                     <div className="row text-black">
                         <p className="lead">
-                            Hello! I'm Matt Blackburn, an experienced IT professional and a passionate Front-End Web Developer. With a background that includes roles such as Lead End User Analyst and Desktop Support Specialist, I have honed my skills in system administration, network management, and customer support. Now, as a web developer, I leverage my expertise in complex tech environments, problem-solving, and software/hardware integration to create engaging and user-friendly web applications.
+                            Hi, I’m {props.firstName} {props.lastName}, a {props.title} with a passion for creating dynamic and user-friendly digital experiences. With over 15 years in IT and a BS in Computer Science from Colorado Technical University, I’ve transitioned from tech support to web development, specializing in HTML, CSS, JavaScript, and React. I love turning ideas into seamless, responsive websites that offer great user experiences.
                         </p>
                         <p className="lead">
-                            Currently, I'm deepening my knowledge in HTML, CSS, JavaScript, React, Python, PowerShell, and more. I bring a unique blend of administrative and creative insights to my projects, ensuring both functionality and aesthetics. I hold a BS in Computer Science from Colorado Technical University and actively enhance my skills through platforms like The Odin Project, Scrimba, and W3Schools. I am a certified Scrum Master and adept at using Scrum and Agile frameworks to manage projects effectively and deliver high-quality results.
+                            I’m constantly learning and staying ahead with tools like Bootstrap, Vite, and Node.js, while my Scrum Master certification helps me manage projects efficiently. I’m always looking to collaborate on new, exciting projects and help businesses elevate their online presence.
+                        </p>
+                        <p className="lead">
+                            Curious to learn more about my experience and skills? Check out my resume or scroll down to explore my portfolio!
                         </p>
                     </div>
                     <div className="text-center mt-4">
+                        <button className="aboutButton">
                         <a className="btn btn-xl btn-outline-dark" href="./Resume/Front-End Developer Matt Blackburn.pdf">
                             <i className="fas fa-download me-2"></i>
                             Download My Resume!
                         </a>
+                        </button>
                     </div>
                 </div>
             </section>

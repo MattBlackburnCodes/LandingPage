@@ -14,6 +14,11 @@
     src: url(./fonts/Caveat-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: 'Railway';
+    src: url(../assets/Fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
 :root{
     --primaryColor: rgb(22, 147, 248);
     --secondaryColor: white;
@@ -261,4 +266,12 @@ ul {
 a{
     text-decoration: none;
     color: var(--primaryColor);
+}
+
+.titleStyle{
+    font-family: 'Railway';
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primaryColor);
+    margin-top: 10px;
 }

@@ -1,10 +1,10 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
-export default function Navigation() {
+export default function Navigation(props) {
   return (
     <Navbar collapseOnSelect expand="lg" bg="secondary" variant="dark" fixed="top" id="mainNav">
-      <Container>
-        <Navbar.Brand href="#page-top">Matt Blackburn Codes</Navbar.Brand>
+      <Container className="mainNavStyle">
+        <Navbar.Brand href="#page-top"><img src="./assets/img/logo/logo.png" alt="Logo" className="logoPic" /> {props.firstName} {props.lastName}</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarResponsive" />
         <Navbar.Collapse id="navbarResponsive">
           <Nav className="ms-auto">

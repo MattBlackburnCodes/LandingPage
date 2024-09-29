@@ -600,12 +600,12 @@ progress {
   content: "—";
 }
 
+/*Portfolio Items*/
 .img-fluid {
-  max-width: 100%;
-  height: 15rem;
-  width: 25rem;
+  height: auto;
+  width: 100%;
   border-radius: 5px;
-
+  
 }
 
 .img-fluid:hover {
@@ -11021,7 +11021,6 @@ html {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
   
@@ -11082,10 +11081,12 @@ html {
   height: 50px;
 }
 
+/*Masthead*/
 .bg-primary {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/background/background.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(../assets/img/background/background.jpg);
   background-position: center;
   background-size: cover;
+  height: 100%;
 }
 
 .text-black,
@@ -11243,4 +11244,102 @@ td{
   justify-content: center;
   align-items: stretch;
   flex-direction: column;
+}
+
+@font-face{
+  font-family: "Railway";
+  src: url(./assets/Fonts/Raleway/Raleway-VariableFont_wght.ttf)
+}
+
+@font-face{
+  font-family: "Playfair";
+  src: url(./assets/Fonts/Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf)
+}
+
+@font-face{
+  font-family: "Playfair-Bold";
+  src: url(./assets/Fonts/Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf)
+}
+
+.titleStyle{
+  font-family: "Railway";
+  font-size: 2.75rem;
+  color: var(--bs-grey);
+}
+
+.titleNameStyle{
+  font-family: "Playfair-Bold";
+  font-size: 3.5rem;
+  color: var(--bs-grey);
+}
+
+.mastheadContainer{
+  gap: 20px;
+  height: 600px;
+  width: 100%;
+  
+}
+
+.mastheadStyle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;  
+  
+}
+
+.mainNavStyle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutButton{
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-family: "Railway";
+  background-color: transparent;
+}
+
+.flex-style-port{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+  padding-top: 20px;
+  margin: 0;
+  
+}
+
+.port-item-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+@media (max-width: 1200px) {
+  .port-item-style {
+    flex: 1 1 calc(50% - 20px); /* 2 items per row on medium screens */
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .port-item-style {
+    flex: 1 1 calc(100% - 20px); /* 1 item per row on smaller screens */
+    max-width: calc(100% - 20px);
+  }
 }
