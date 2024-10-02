@@ -22,10 +22,10 @@ export default function About(props) {
                     </div>
                     <div className="text-center mt-4">
                         <button className="aboutButton">
-                        <a className="btn btn-xl btn-outline-dark" href="./Resume/Front-End Developer Matt Blackburn.pdf">
-                            <i className="fas fa-download me-2"></i>
-                            Download My Resume!
-                        </a>
+                            <a className="btn btn-xl btn-outline-dark" href="./Resume/Front-End Developer Matt Blackburn.pdf">
+                                <i className="fas fa-download me-2"></i>
+                                Download My Resume!
+                            </a>
                         </button>
                     </div>
                 </div>

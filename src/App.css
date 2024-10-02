@@ -11330,16 +11330,3 @@ td{
   background-color: transparent;
 }
 
-@media (max-width: 1200px) {
-  .port-item-style {
-    flex: 1 1 calc(50% - 20px); /* 2 items per row on medium screens */
-    max-width: calc(50% - 20px);
-  }
-}
-
-@media (max-width: 768px) {
-  .port-item-style {
-    flex: 1 1 calc(100% - 20px); /* 1 item per row on smaller screens */
-    max-width: calc(100% - 20px);
-  }
-}

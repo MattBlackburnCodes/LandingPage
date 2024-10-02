@@ -8,8 +8,9 @@ import MastHead from './Components/MastHead.jsx'
 import About from './Components/About.jsx'
 import Footer from './Components/Footer.jsx'
 import Copyright from './Components/Copyright.jsx'
-import ProfileData from './Data/ProffileData.js'
+import ProfileData from './Data/ProfileData.js'
 import Portfolio from './Components/Portfolio.jsx'
+import Contact from './Components/Contact.jsx'
 
 
 export default function App() {
@@ -36,6 +37,7 @@ export default function App() {
                 
             />
             <Portfolio />
+            <Contact />
             <Footer />
             <Copyright />
         </div>
