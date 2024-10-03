@@ -4,7 +4,7 @@ export default function PortfolioModal({ project, handleCloseModal }) {
     return (
         <div className="modal fade show" style={{ display: 'block' }} tabIndex="-1">
             <div className="modal-dialog modal-xl">
-                <div className="modal-content">
+                <div className="modal-content" style={{ border:"5px solid rgba(211, 90, 16, 255)" } }>
                     <div className="modal-header border-0">
                         <button className="btn-close" onClick={handleCloseModal} aria-label="Close"></button>
                     </div>
@@ -23,13 +23,18 @@ export default function PortfolioModal({ project, handleCloseModal }) {
                                         <div className="divider-custom-line"></div>
                                     </div>
                                     <img className="img-fluid rounded mb-5" src={project.image} alt={project.name} />
+                                    <h5>Description</h5>
                                     <p className="mb-4">{project.description}</p>
-                                    <a href={project.link} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                                        Visit Project
-                                    </a>
-                                    <button className="btn btn-secondary mt-3" onClick={handleCloseModal}>
-                                        Close Window
-                                    </button>
+                                    <h5>Technologies</h5>
+                                    <p className="mb-4">{project.tech}</p>
+                                    <div className="modalButtonStyle">
+                                        <a href={project.link} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                                Visit Project
+                                        </a>
+                                        <button className="btn btn-secondary mt-3 modalButtonStyleAlt" onClick={handleCloseModal}>
+                                            Close Window
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>

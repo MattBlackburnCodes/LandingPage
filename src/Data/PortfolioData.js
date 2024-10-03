@@ -33,6 +33,7 @@ const PortfolioData = [
     name: 'Tic Tac Toe',
     image: TTT,
     description: 'A classic game of Tic Tac Toe with a twist.', 
+    tech: 'HTML, CSS, JavaScript',
     link: '#',
   }
 ];
