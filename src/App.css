@@ -11331,25 +11331,9 @@ td{
 }
 
 .modalButtonStyle{
-  color: white;
-  border: none;
-  border-radius: 10px;
-  padding: 10px;
-  font-size: 1.5rem;
-  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   gap: 10px;
-}
-
-.modalButtonStyleAlt{
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  gap: 10px;
-
 }
