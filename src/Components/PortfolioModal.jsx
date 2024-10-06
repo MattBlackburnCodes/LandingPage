@@ -18,7 +18,7 @@ export default function PortfolioModal({ project, handleCloseModal }) {
                                     <div className="divider-custom">
                                         <div className="divider-custom-line"></div>
                                         <div className="divider-custom-icon">
-                                            <img src="./assets/img/logo/logo.png" alt="Logo" className="logoPic" />
+                                            <img src={props.image} alt="Logo" className="logoPic" />
                                         </div>
                                         <div className="divider-custom-line"></div>
                                     </div>

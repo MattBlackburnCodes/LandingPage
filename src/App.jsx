@@ -24,21 +24,28 @@ export default function App() {
             <Nav 
                 firstName={ProfileData.firstName}
                 lastName={ProfileData.lastName}
+                image={ProfileData.image}
             />
             <MastHead 
                 firstName={ProfileData.firstName}
                 lastName={ProfileData.lastName}
                 title={ProfileData.title}
                 slogan={ProfileData.slogan}
+                image={ProfileData.image}
             />
             <About 
                 firstName={ProfileData.firstName}
                 lastName={ProfileData.lastName}
                 title={ProfileData.title}
+                image={ProfileData.image}
                 
             />
-            <Portfolio />
-            <Contact />
+            <Portfolio 
+                image={ProfileData.image}
+            />
+            <Contact 
+                image={ProfileData.image}
+            />
             <Footer />
             <Copyright />
         </div>

@@ -1,3 +1,5 @@
+import Logo from '../assets/img/logo/logo.png';
+
 const profileData = {
     firstName: `Matt`,
     lastName: `Blackburn`,
@@ -9,7 +11,8 @@ const profileData = {
     //linkedInImage: ``,
     github: `https://github.com/MattBlackburnCodes`,
     //githubImage: ``,
-    resume: `./assets/Data/MattBlackburnResume.pdf`
+    resume: `./assets/Data/MattBlackburnResume.pdf`,
+    image: Logo,
 
 
 }
