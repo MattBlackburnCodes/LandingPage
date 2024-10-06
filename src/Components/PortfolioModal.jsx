@@ -27,6 +27,10 @@ export default function PortfolioModal({ project, handleCloseModal }) {
                                     <p className="mb-4">{project.description}</p>
                                     <h5>Technologies</h5>
                                     <p className="mb-4">{project.tech}</p>
+                                    <h5>Tools</h5>
+                                    <p className="mb-4">{project.tools}</p>
+                                    <h5>Platform</h5>
+                                    <p className="mb-4">{project.platform}</p>
                                     <div className="modalButtonStyle">
                                         <a href={project.link} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
                                                 Visit Project

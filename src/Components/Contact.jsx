@@ -31,7 +31,9 @@ export default function Contact() {
                     <div className="divider-custom-icon"><img src="./assets/img/logo/logo.png" alt="Logo" className="logoPic" /></div>
                     <div className="divider-custom-line"></div>
                 </div>
-                
+                <div>
+                    <p className="text-center text-black lead">Have a question or want to work together? I'd love to hear from you! Please fill out the form below to get in touch.</p>
+                </div>
                 <div className="row justify-content-center">
                     <div className="col-lg-8 col-xl-7">
                         <form id="contactForm" onSubmit={handleSubmit}>
