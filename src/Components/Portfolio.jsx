@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PortfolioData from '../Data/PortfolioData';
 import PortfolioModal from './PortfolioModal'; // Import the modal component
 
-export default function Portfolio() {
+export default function Portfolio(props) {
     const [selectedProject, setSelectedProject] = useState(null);
     const [showModal, setShowModal] = useState(false);
 
