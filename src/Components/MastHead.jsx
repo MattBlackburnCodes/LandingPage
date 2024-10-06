@@ -1,3 +1,5 @@
+import React from 'react'
+
 export default function MastHead(props) {
     return(
         <div className="mastheadContainer">

@@ -1,3 +1,5 @@
+import React from 'react'
+
 export default function Copyright() {
     return(
         <div className="copyright py-4 text-center text-white">
