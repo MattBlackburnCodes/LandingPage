@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function PortfolioModal({ project, handleCloseModal }) {
+export default function PortfolioModal({ project, handleCloseModal, props }) {
     return (
         <div className="modal fade show" style={{ display: 'block' }} tabIndex="-1">
             <div className="modal-dialog modal-xl">
