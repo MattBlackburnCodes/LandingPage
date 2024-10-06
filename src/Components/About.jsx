@@ -7,7 +7,7 @@ export default function About(props) {
                     <h2 className="page-section-heading text-center text-uppercase">About</h2>
                     <div className="divider-custom">
                         <div className="divider-custom-line"></div>
-                        <img src="./assets/img/logo/logo.png" alt="Logo" className="logoPic" />
+                        <img src={props.image} alt="Logo" className="logoPic" />
                         <div className="divider-custom-line"></div>
                     </div>
                     <div className="row text-black">

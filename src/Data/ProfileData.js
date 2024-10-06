@@ -1,4 +1,4 @@
-
+import Logo from '../Images/logo.png';
 const profileData = {
     firstName: `Matt`,
     lastName: `Blackburn`,
@@ -11,7 +11,7 @@ const profileData = {
     github: `https://github.com/MattBlackburnCodes`,
     //githubImage: ``,
     resume: `./assets/Data/MattBlackburnResume.pdf`,
-    image: `../Images/logo.png`,
+    image: Logo,
 
 
 }
