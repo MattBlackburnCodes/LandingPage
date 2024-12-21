@@ -17,7 +17,7 @@ const PortfolioData = [
     integration and dynamic updates for the website. This project showcases my 
     ability to handle both front-end and back-end development while maintaining 
     a fun and interactive user experience.`,
-    tech: ['React', 'JavaScript', 'CSS', 'HTML'],
+    tech: 'React, JavaScript, CSS, HTML',
     platform: 'Vercel',
     tools: ['Visual Studio Code'],
     link: 'https://bb-burger-of-the-day.vercel.app/'
