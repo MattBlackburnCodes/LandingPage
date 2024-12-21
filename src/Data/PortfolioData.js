@@ -5,8 +5,23 @@ import RPS from '../Images/RPS.png';
 import TTT from '../Images/TicTacToe.png';
 import M2ETD from '../Images/Mako2.png';
 import Blast from '../Images/Blastroids.png';
+import BBBOTD from '../Images/BB-Logo.png'
 
 const PortfolioData = [
+  { name: 'Bob\'s Burgers - Burger of the Day',
+    image: BBBOTD,
+    description: `Bob's Burgers - Burger of the Day is a creative portfolio project 
+    inspired by the famous TV show. Each burger highlights a unique, pun-filled 
+    name and a delicious recipe, designed to capture the charm and humor of the 
+    series. I developed a custom API to serve the burger data, allowing seamless 
+    integration and dynamic updates for the website. This project showcases my 
+    ability to handle both front-end and back-end development while maintaining 
+    a fun and interactive user experience.`,
+    tech: ['React', 'JavaScript', 'CSS', 'HTML'],
+    platform: 'Vercel',
+    tools: ['Visual Studio Code'],
+    link: 'https://bb-burger-of-the-day.vercel.app/'
+  },
   {
     name: 'Bean Me Up Scotty, Cafe',
     image: BMUSC,
