@@ -6,8 +6,21 @@ import TTT from '../Images/TicTacToe.png';
 import M2ETD from '../Images/Mako2.png';
 import Blast from '../Images/Blastroids.png';
 import BBBOTD from '../Images/BB-Logo.png'
+import QuotifyImage from '../Images/Quotify.png';
 
 const PortfolioData = [
+  {
+    name: 'Quotify App',
+    image: QuotifyImage,
+    description: `Quotify is a sleek and dynamic mobile app designed to provide users with a daily dose of inspiration. 
+    The app fetches quotes from an API and displays them with a beautiful and minimalistic design. 
+    Built using React Native, it was an excellent opportunity to explore mobile app development and API integration.
+    The app features smooth animations, responsive layouts, and an engaging user interface, making it easy and fun to use.`,
+    tech: 'React Native. JavaScript, CSS, Expo, API',
+    platform: 'Android & iOS',
+    tools: 'Visual Studio Code, Postman, Expo Go',
+    link: 'https://github.com/MattBlackburnCodes/TheWordNerdsPlayground',
+  },
   { name: 'Bob\'s Burgers - Burger of the Day',
     image: BBBOTD,
     description: `Bob's Burgers - Burger of the Day is a creative portfolio project 
@@ -19,7 +32,7 @@ const PortfolioData = [
     a fun and interactive user experience.`,
     tech: 'React, JavaScript, CSS, HTML',
     platform: 'Vercel',
-    tools: ['Visual Studio Code'],
+    tools: 'Visual Studio Code',
     link: 'https://bb-burger-of-the-day.vercel.app/'
   },
   {
