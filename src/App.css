@@ -11282,7 +11282,7 @@ td{
   
 }
 
-/*
+
 .mastheadStyle{ 
   display: flex; 
   justify-content: center; 
@@ -11290,8 +11290,8 @@ td{
   flex-direction: column; 
   gap: 20px; 
   height: 100%; }
-*/
 
+/*
 .mastheadStyle{
   display: flex;
   justify-content: flex-start;
@@ -11301,6 +11301,7 @@ td{
   min-height: 100dvh;  
   
 }
+  */
 
 .mainNavStyle{
   display: flex;
@@ -11349,5 +11350,4 @@ td{
   gap: 10px;
   flex-direction: column;
 }
-
 
