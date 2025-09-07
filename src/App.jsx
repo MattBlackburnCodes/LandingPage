@@ -3,7 +3,7 @@ import { useState } from 'react'
 import React from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+//import './App.css'
 import Nav from './Components/Nav.jsx'
 import MastHead from './Components/MastHead.jsx'
 import About from './Components/About.jsx'
@@ -16,7 +16,7 @@ import Contact from './Components/Contact.jsx'
 
 export default function App() {
     return(
-
+        //Not an issue with the full screen
         <div className="fullscreen">
             <Nav 
                 firstName={ProfileData.firstName}
