@@ -11241,7 +11241,7 @@ td{
 
 .fullscreen{
   width: 100vw;
-  height: 100vh;
+  /*height: 100vh; do use this. It messes up the height and smooches things*/
   display: flex;
   justify-content: center;
   align-items: stretch;
