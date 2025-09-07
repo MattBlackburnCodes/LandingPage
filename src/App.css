@@ -1241,10 +1241,6 @@ progress {
   .gy-md-5 {
     --bs-gutter-y: 3rem;
   }
-  .row {
-    justify-content: flex-start;
-    align-items: stretch;
-  }
   .bg-primary {
     min-height: 100dvh;   /* instead of height:100% */
   }
@@ -11090,7 +11086,7 @@ html {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(../assets/img/background/background.jpg);
   background-position: center;
   background-size: cover;
-  height: 100%;
+  min-height: 100vh;
 }
 
 .text-black,
