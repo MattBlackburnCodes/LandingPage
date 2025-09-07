@@ -11082,12 +11082,12 @@ html {
 }
 
 /*Masthead*/
-.bg-primary {
+/*.bg-primary {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(../assets/img/background/background.jpg);
   background-position: center;
   background-size: cover;
   min-height: 100vh;
-}
+}*/
 
 .text-black,
 .row,
@@ -11170,7 +11170,7 @@ td{
 }
 
 
-/*.background-image{
+.background-image{
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/background/background.jpg);
   background-size: cover;
   background-position: center;
@@ -11183,7 +11183,7 @@ td{
   gap: 20px;
   color: white;
   border: 3px solid rgba(211,90,16,255);
-}*/
+}
 
 .background-image{
   background-color: rgba(15,31,51,255);
