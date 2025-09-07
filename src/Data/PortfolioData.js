@@ -6,21 +6,35 @@ import TTT from '../Images/TicTacToe.png';
 import M2ETD from '../Images/Mako2.png';
 import Blast from '../Images/Blastroids.png';
 import BBBOTD from '../Images/BB-Logo.png'
-import QuotifyImage from '../Images/Quotify.png';
+import TDN from '../images/Daily Nugget stock.jpg'
 
 const PortfolioData = [
   {
-    name: 'Quotify App',
-    image: QuotifyImage,
-    description: `Quotify is a sleek and dynamic mobile app designed to provide users with a daily dose of inspiration. 
-    The app fetches quotes from an API and displays them with a beautiful and minimalistic design. 
-    Built using React Native, it was an excellent opportunity to explore mobile app development and API integration.
-    The app features smooth animations, responsive layouts, and an engaging user interface, making it easy and fun to use.`,
-    tech: 'React Native. JavaScript, CSS, Expo, API',
-    platform: 'Android & iOS',
-    tools: 'Visual Studio Code, Postman, Expo Go',
-    link: 'https://github.com/MattBlackburnCodes/TheWordNerdsPlayground',
+    name: 'The Daily Nugget',
+    image: TDN,
+    description: `Start your day with a boost of positivity, motivation, and fun! The Daily Nugget delivers bite-sized quotes, facts, jokes, and affirmations designed to brighten your mood and keep you inspired.
+
+With a colorful, playful design and the lovable mascot Chick N. Nugget, you’ll enjoy uplifting content tailored to give you that extra push whenever you need it.
+
+Features:
+
+🌟 Daily motivational quotes to inspire you
+
+🤓 Fun facts to expand your knowledge
+
+😂 Jokes for a quick laugh
+
+💪 Affirmations to build confidence
+
+🎨 Vibrant design inspired by flavors and sauces
+
+Whether you’re looking for wisdom, a laugh, or just a little encouragement, The Daily Nugget has something for you. Perfect for starting your morning, recharging midday, or ending your night on a positive note.`,
+    tech: 'React Native, JavaScript, CSS, Expo, API',
+    platform: 'OS',
+    tools: 'Visual Studio Code, Expo Go, Test Flight, App Connect',
+    link: 'TBD'
   },
+
   { name: 'Bob\'s Burgers - Burger of the Day',
     image: BBBOTD,
     description: `Bob's Burgers - Burger of the Day is a creative portfolio project 
