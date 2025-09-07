@@ -17,7 +17,7 @@ import Contact from './Components/Contact.jsx'
 export default function App() {
     return(
 
-        <div className="">
+        <div className="fullscreen">
             <Nav 
                 firstName={ProfileData.firstName}
                 lastName={ProfileData.lastName}
