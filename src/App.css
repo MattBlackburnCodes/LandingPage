@@ -11275,6 +11275,7 @@ td{
   color: var(--bs-grey);
 }
 
+/*
 .mastheadContainer{
   gap: 20px;
   height: 600px;
@@ -11301,7 +11302,7 @@ td{
   min-height: 100dvh;  
   
 }
-  */
+  
 
 .mainNavStyle{
   display: flex;
@@ -11350,4 +11351,4 @@ td{
   gap: 10px;
   flex-direction: column;
 }
-
+*/
