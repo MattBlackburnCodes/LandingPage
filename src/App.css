@@ -10850,7 +10850,7 @@ textarea.form-control-lg {
 }
 html {
   height: 100%;
-  scroll-padding-top: calc(1rem - 1px);
+  scroll-padding-top: calc(4.5rem - 1px);
 }
 
 .page-section {
@@ -10913,7 +10913,7 @@ html {
   justify-content: center;
   align-items: center;
 }
-
+/*
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -11089,13 +11089,13 @@ html {
   background-size: cover;
   height: 100%;
 }
-*/
+
 .text-black,
 .row,
 .lead{
   color: var(--bs-grey);
 }
-
+/*
 .black-line{
   background-color: var(--bs-grey);
   
@@ -11153,7 +11153,7 @@ table{
   width: 100%;
   height: fit-content;
   border-radius: 10px;
-}*/
+}
 
 th,
 td{
@@ -11184,7 +11184,7 @@ td{
   gap: 20px;
   color: white;
   border: 3px solid rgba(211,90,16,255);
-}*/
+}
 
 .background-image{
   background-color: rgba(15,31,51,255);
@@ -11241,7 +11241,7 @@ td{
 
 .fullscreen{
   width: 100vw;
-  /*height: 100vh; do use this. It messes up the height and smooches things*/
+  /*height: 100vh; do use this. It messes up the height and smooches things
   display: flex;
   justify-content: center;
   align-items: stretch;
