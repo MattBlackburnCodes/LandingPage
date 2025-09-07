@@ -10850,7 +10850,7 @@ textarea.form-control-lg {
 }
 html {
   height: 100%;
-  scroll-padding-top: calc(4.5rem - 1px);
+  scroll-padding-top: calc(1rem - 1px);
 }
 
 .page-section {
