@@ -10942,7 +10942,7 @@ html {
   font-size: 80%;
   padding: 0.8rem;
 }
-
+/*Everthing below this doesn't impact the web page*/
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -11083,7 +11083,7 @@ html {
 }
 
 /*Masthead*/
-/*.bg-primary {
+.bg-primary {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(../assets/img/background/background.jpg);
   background-position: center;
   background-size: cover;
@@ -11095,7 +11095,7 @@ html {
 .lead{
   color: var(--bs-grey);
 }
-/*
+
 .black-line{
   background-color: var(--bs-grey);
   
@@ -11112,7 +11112,7 @@ html {
   gap: 20px;
   margin-top: 4rem;
 }
-
+/*
 .service-price,
 .description{
   display: flex;
@@ -11168,10 +11168,10 @@ td{
   width: 100%;
   display: flex;
 
-}
+}*/
 
 
-/*.background-image{
+.background-image{
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/background/background.jpg);
   background-size: cover;
   background-position: center;
@@ -11241,7 +11241,7 @@ td{
 
 .fullscreen{
   width: 100vw;
-  /*height: 100vh; do use this. It messes up the height and smooches things
+  /*height: 100vh; do use this. It messes up the height and smooches things*/
   display: flex;
   justify-content: center;
   align-items: stretch;
