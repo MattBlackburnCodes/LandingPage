@@ -11282,6 +11282,16 @@ td{
   
 }
 
+/*
+.mastheadStyle{ 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  gap: 20px; 
+  height: 100%; }
+*/
+
 .mastheadStyle{
   display: flex;
   justify-content: flex-start;
@@ -11339,3 +11349,38 @@ td{
   gap: 10px;
   flex-direction: column;
 }
+
+/* Make the hero actually fill the viewport, regardless of which class combo is used */
+masthead,
+header.masthead,
+.masthead,
+.mastheadContainer,
+.mastheadStyle,
+.masthead.bg-primary,
+.bg-primary.masthead {
+  height: auto !important;
+  min-height: 100dvh !important; /* or 100vh */
+}
+
+/* Neutralize the big top padding that pushes content down */
+masthead,
+header.masthead {
+  padding-top: 0 !important;
+  /* padding-bottom: 0 !important;  /* optional */ 
+}
+
+/* Stop vertical centering in your hero wrappers on desktop */
+@media (min-width: 992px){
+  .mastheadContainer,
+  .mastheadStyle,
+  .outside-lines,
+  .background-image{
+    display: flex;                 /* ensure gap works if you’re using it */
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+}
+
+/* Safety: avoid any horizontal overflow weirdness */
+html, body { overflow-x: hidden; }
+
