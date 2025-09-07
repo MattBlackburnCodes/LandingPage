@@ -11284,11 +11284,11 @@ td{
 
 .mastheadStyle{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: stretch;
   flex-direction: column;
   gap: 20px;
-  height: 100%;  
+  min-height: 100dvh;  
   
 }
 
