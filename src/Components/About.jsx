@@ -12,7 +12,7 @@ export default function About(props) {
                     </div>
                     <div className="row text-black">
                         <p className="lead">
-                            Hi, I’m {props.firstName} {props.lastName}, a {props.title} with a passion for creating dynamic and user-friendly digital experiences. With over 15 years in IT and a BS in Computer Science from Colorado Technical University, I’ve transitioned from tech support to web development, specializing in HTML, CSS, JavaScript, and React. I love turning ideas into seamless, responsive websites that offer great user experiences.
+                            Hi, I’m {props.firstName} {props.lastName}, a {props.title} with a passion for creating dynamic and user-friendly digital experiences. With over 15 years in IT and a BS in Computer Science from Colorado Technical University, I’ve transitioned from tech support to web development, specializing in HTML, CSS, JavaScript, and React. I love turning ideas into seamless, responsive websites that offer great user experiences!
                         </p>
                         <p className="lead">
                             I’m constantly learning and staying ahead with tools like Bootstrap, Vite, and Node.js, while my Scrum Master certification helps me manage projects efficiently. I’m always looking to collaborate on new, exciting projects and help businesses elevate their online presence.
