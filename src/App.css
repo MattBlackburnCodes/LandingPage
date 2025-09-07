@@ -1241,6 +1241,13 @@ progress {
   .gy-md-5 {
     --bs-gutter-y: 3rem;
   }
+  .row {
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  .bg-primary {
+    min-height: 100dvh;   /* instead of height:100% */
+  }
 }
 @media (min-width: 992px) {
   .col-lg {
