@@ -1241,6 +1241,7 @@ progress {
   .gy-md-5 {
     --bs-gutter-y: 3rem;
   }
+
   .bg-primary {
     min-height: 100dvh;   /* instead of height:100% */
   }
@@ -11082,12 +11083,12 @@ html {
 }
 
 /*Masthead*/
-/*.bg-primary {
+.bg-primary {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(../assets/img/background/background.jpg);
   background-position: center;
   background-size: cover;
-  min-height: 100vh;
-}*/
+  height: 100%;
+}
 
 .text-black,
 .row,
@@ -11183,7 +11184,7 @@ td{
   gap: 20px;
   color: white;
   border: 3px solid rgba(211,90,16,255);
-}
+}*/
 
 .background-image{
   background-color: rgba(15,31,51,255);
@@ -11196,7 +11197,7 @@ td{
   gap: 20px;
   color: white;
   
-}*/
+}
 
 
 .title-header{
@@ -11240,6 +11241,7 @@ td{
 
 .fullscreen{
   width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: stretch;
