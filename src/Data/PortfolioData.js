@@ -31,7 +31,7 @@ Features:
 Whether you’re looking for wisdom, a laugh, or just a little encouragement, The Daily Nugget has something for you. Perfect for starting your morning, recharging midday, or ending your night on a positive note.`,
     tech: 'React Native, JavaScript, CSS, Expo, API',
     platform: 'OS',
-    tools: 'Visual Studio Code, Expo Go, Test Flight, App Connect',
+    tools: 'VSCode, Expo Go, Test Flight, App Connect',
     link: 'TBD'
   },
 
