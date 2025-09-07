@@ -6,7 +6,7 @@ import TTT from '../Images/TicTacToe.png';
 import M2ETD from '../Images/Mako2.png';
 import Blast from '../Images/Blastroids.png';
 import BBBOTD from '../Images/BB-Logo.png'
-import TDN from '../images/Daily Nugget stock.jpg'
+import TDN from '../Images/Daily Nugget stock.jpg'
 
 const PortfolioData = [
   {
