@@ -687,8 +687,8 @@ progress {
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: initial;
+  align-items: initial;
 }
 .row > * {
   flex-shrink: 0;
@@ -11239,7 +11239,8 @@ td{
 }
 
 .fullscreen{
-  width: 100vw;
+  width: 100%;
+  min-height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: stretch;
