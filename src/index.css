@@ -25,7 +25,10 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  /*place-items: center;*/
+  /*
+  This messed up everything where the page would only load in the middle of the website.
+  place-items: center;
+  */
   min-width: 320px;
   min-height: 100vh;
 }
