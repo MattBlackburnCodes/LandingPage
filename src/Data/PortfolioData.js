@@ -32,7 +32,7 @@ Whether you’re looking for wisdom, a laugh, or just a little encouragement, Th
     tech: 'React Native, JavaScript, CSS, Expo, API',
     platform: 'OS',
     tools: 'VSCode, Expo Go, Test Flight, App Connect',
-    link: 'TBD'
+    link: 'https://apps.apple.com/us/app/thedailynugget/id6745912191'
   },
 
   { name: 'Bob\'s Burgers - Burger of the Day',
